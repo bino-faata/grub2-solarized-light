@@ -1,0 +1,54 @@
+#SolarizedLight grub2 theme
+
+title-text: ""
+desktop-color: "#fdf6e3"
+terminal-box: "terminal_box_*.png"
+terminal-font: "Gnu Unifont Mono Regular 16"
+
++ boot_menu {
+  left = 10%
+  width = 80%
+  top = 25%
+  height = 50%
+
+  item_font = "DejaVu Sans Bold 12"
+  item_color = "#657b83"
+  item_height = 32
+  item_icon_space = 8
+  item_spacing = 2
+
+  selected_item_font = "DejaVu Sans Bold 12"
+  selected_item_color= "#eee8d5"
+  selected_item_pixmap_style = "select_*.png"
+
+  icon_height = 32
+  icon_width = 32
+
+  scrollbar = true
+  scrollbar_width = 20
+  scrollbar_thumb = "slider_*.png"
+}
+
++ progress_bar {
+  id = "__timeout__"
+
+  left = 15%
+  top = 85%
+  height = 15
+  width = 70%
+
+  # font = "DejaVu Sans Regular 12"
+
+  # text_color = "#aaaaaa"
+  fg_color = "#93a1a1"
+
+  bg_color = "#eee8d5"
+  border_color = "#fdf6e3"
+
+  # instead of the above colors, use pixmaps
+  # bar_style = "progress_bar_*.png"
+  # highlight_style = "progress_highlight_*.png"
+
+  # text = "@TIMEOUT_NOTIFICATION_LONG@"
+}
+
