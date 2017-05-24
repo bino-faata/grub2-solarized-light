@@ -1,4 +1,4 @@
-# grub2-solarized-dark
+# grub2-solarized-light
 Grub2 theme based in StylishDark
 
  ![My image](https://raw.githubusercontent.com/aevernum/grub2-solarized-light/master/screenshot.png)
